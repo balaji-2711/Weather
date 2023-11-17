@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-body {
+    background-color: lightgray;
+    font-family: sans-serif;
+    border-top: 2px solid black;
+    font-size: 18px;
+}
+
+.class-footer {
+    margin-top: 20px;
+    border: none;
+}
+
+#title {
+    height: 2.5em;
+    background-color: #fa7974;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
